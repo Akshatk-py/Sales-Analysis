@@ -13,7 +13,7 @@ sales = pd.read_csv('./Data/CSV AND EXCELS/Sales_Data/Combined Sales.csv')
 #     
 # =============================================================================
 
-# ======================TO DELETE THE UNWANTED ROWS====================================
+
 # sales = sales.drop(sales.index[1])
 # 
 # c = list()
