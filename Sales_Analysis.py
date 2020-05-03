@@ -171,7 +171,7 @@ plt.xticks(rotation = 90)
 
 #---------------------------New York City NY_Sales(PRODUCT WISE)------------------------------
 NY_dict = list()
-NY_dict = sales.Product.unique()
+
 NY_sales_list = dict()
 for k in NY_dict:
     NY_sales_list[k] =  sales.loc[(sales['Product'] == k) & (sales['City'] == ' New York City NY'), 'Sales'].sum()
