@@ -12,7 +12,7 @@ sales = pd.read_csv('./Data/CSV AND EXCELS/Sales_Data/Combined Sales.csv')
 #     sales = pd.concat([sales,df])
 #     
 # =============================================================================
-
+#123123
 # ======================TO DELETE THE UNWANTED ROWS====================================
 # sales = sales.drop(sales.index[1])
 # 
